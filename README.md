@@ -1,4 +1,4 @@
-# Anime Blog
+# Bloggy
 
 A Django blog project with custom user accounts, post publishing, comments, and like/dislike reactions.
 
