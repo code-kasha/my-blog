@@ -1,0 +1,31 @@
+{
+	"name": "my-blog",
+	"version": "1.0.0",
+	"description": "A Django blog project with custom user accounts, post publishing, comments, and like/dislike reactions.",
+	"main": "index.js",
+	"scripts": {
+		"watch": "tailwindcss -i ./staticfiles/styles/base.css -o ./staticfiles/styles/styles.css --watch",
+		"build": "tailwindcss -i ./staticfiles/styles/base.css -o ./staticfiles/styles/styles.css",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/code-kasha/my-blog.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/code-kasha/my-blog/issues"
+	},
+	"homepage": "https://github.com/code-kasha/my-blog#readme",
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.2.4",
+		"tailwindcss": "^4.2.4",
+		"vite": "^5.0.0"
+	},
+	"dependencies": {
+		"@tailwindcss/cli": "^4.2.4"
+	}
+}

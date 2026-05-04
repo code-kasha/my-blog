@@ -81,6 +81,13 @@ Create an admin user:
 python manage.py createsuperuser
 ```
 
+Configure CSS:
+
+```bash
+npm i
+npm run build
+```
+
 Run the development server:
 
 ```bash
